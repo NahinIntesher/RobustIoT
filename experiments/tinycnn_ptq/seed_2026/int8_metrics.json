@@ -1,0 +1,13 @@
+{
+  "precision_type": "INT8_PTQ",
+  "accuracy": 0.8728,
+  "macro_precision": 0.8733305644032058,
+  "macro_recall": 0.8728,
+  "macro_f1": 0.8726329156885079,
+  "model_size_mb": 0.1645832061767578,
+  "latency_mean_ms": 1.6453416666900011,
+  "latency_median_ms": 1.6033500000958156,
+  "latency_p95_ms": 2.101704999995491,
+  "latency_p99_ms": 2.4452299999120437,
+  "throughput_inf_per_s": 607.7765003129955
+}

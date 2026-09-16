@@ -1,0 +1,5 @@
+{
+  "model": "mobilenetv2",
+  "precision": "INT8_PTQ",
+  "backend": "x86"
+}

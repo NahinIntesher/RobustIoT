@@ -1,0 +1,5 @@
+{
+  "model": "tinycnn",
+  "precision": "INT8_PTQ",
+  "backend": "x86"
+}
