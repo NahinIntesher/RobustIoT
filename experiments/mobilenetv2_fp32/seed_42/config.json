@@ -1,0 +1,19 @@
+{
+  "model": "mobilenetv2",
+  "data_dir": "./data",
+  "output": "experiments\\mobilenetv2_fp32\\seed_42",
+  "epochs": 50,
+  "batch_size": 128,
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "seed": 42,
+  "split_seed": 42,
+  "val_size": 5000,
+  "num_workers": 2,
+  "device": "auto",
+  "plot_every": 1,
+  "no_progress": false,
+  "no_resume": false,
+  "device_resolved": "cuda"
+}

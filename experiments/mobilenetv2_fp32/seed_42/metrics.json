@@ -1,0 +1,19 @@
+{
+  "model": "mobilenetv2",
+  "precision_type": "FP32",
+  "checkpoint_epoch": 48,
+  "best_validation_accuracy": 0.8242,
+  "accuracy": 0.8284,
+  "macro_precision": 0.8278773520376257,
+  "macro_recall": 0.8283999999999999,
+  "macro_f1": 0.8279867740531037,
+  "trainable_parameters": 2236682,
+  "model_size_mb": 8.662788391113281,
+  "evaluation_device": "cuda",
+  "latency_device": "cpu",
+  "latency_mean_ms": 4.36670566656782,
+  "latency_median_ms": 4.448099999535771,
+  "latency_p95_ms": 4.83161000029213,
+  "latency_p99_ms": 4.883393000072829,
+  "throughput_inf_per_s": 229.00558827588404
+}
