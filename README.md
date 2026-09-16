@@ -14,12 +14,37 @@ pip install -r requirements.txt
 
 ## Train
 ```bash
+For TinyCNN FP32
+-----------------------------
+python train.py --model tinycnn --epochs 50 --seed 42 --split-seed 42
+python train.py --model tinycnn --epochs 50 --seed 123 --split-seed 42
+python train.py --model tinycnn --epochs 50 --seed 2026 --split-seed 42
+
+
+For MobileNetV2 FP32
+-----------------------------
+python train.py --model mobilenetv2 --epochs 50 --seed 42 --split-seed 42
+python train.py --model mobilenetv2 --epochs 50 --seed 123 --split-seed 42
+python train.py --model mobilenetv2 --epochs 50 --seed 2026 --split-seed 42
+
 python train.py --epochs 50 --batch-size 128 --lr 0.1 --seed 42
 ```
 
+
 ## Evaluate
 ```bash
-python evaluate.py --checkpoint experiments/tinycnn_fp32/best_model.pth
+For TinyCNN FP32
+-----------------------------
+python evaluate.py --checkpoint experiments/tinycnn_fp32/seed_42/best_model.pth
+python evaluate.py --checkpoint experiments/tinycnn_fp32/seed_123/best_model.pth
+python evaluate.py --checkpoint experiments/tinycnn_fp32/seed_2026/best_model.pth
+
+
+For MobileNetV2 FP32
+-----------------------------
+python evaluate.py --checkpoint experiments/mobilenetv2_fp32/seed_42/best_model.pth
+python evaluate.py --checkpoint experiments/mobilenetv2_fp32/seed_123/best_model.pth
+python evaluate.py --checkpoint experiments/mobilenetv2_fp32/seed_2026/best_model.pth
 ```
 
 Outputs are saved under `experiments/tinycnn_fp32/`: config, best checkpoint, CSV training log, plots, and clean-test metrics.
