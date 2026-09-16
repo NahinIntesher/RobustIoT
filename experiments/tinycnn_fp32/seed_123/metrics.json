@@ -1,0 +1,19 @@
+{
+  "model": "tinycnn",
+  "precision_type": "FP32",
+  "checkpoint_epoch": 49,
+  "best_validation_accuracy": 0.8846,
+  "accuracy": 0.874,
+  "macro_precision": 0.8736284229992781,
+  "macro_recall": 0.874,
+  "macro_f1": 0.8735794235466905,
+  "trainable_parameters": 141034,
+  "model_size_mb": 0.5404815673828125,
+  "evaluation_device": "cuda",
+  "latency_device": "cpu",
+  "latency_mean_ms": 1.2118976666685437,
+  "latency_median_ms": 1.2007000000266999,
+  "latency_p95_ms": 1.2769799996931397,
+  "latency_p99_ms": 1.3926210001409345,
+  "throughput_inf_per_s": 825.152178689277
+}
