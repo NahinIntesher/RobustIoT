@@ -10,7 +10,7 @@ if str(PROJECT_ROOT) not in sys.path:
 import argparse
 import copy
 import time
-
+from tqdm import tqdm
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -77,7 +77,7 @@ def train_one_epoch(
     total = 0
 
 
-    for images, targets in loader:
+    for images, targets in tqdm(loader, desc=f"Train", unit="batch", leave=False):
 
         images = images.to(device)
         targets = targets.to(device)
@@ -145,7 +145,8 @@ def evaluate(
     total = 0
 
 
-    for images, targets in loader:
+
+    for images, targets in tqdm(loader, desc=f"Validation", unit="batch", leave=False):
 
         images = images.to(device)
         targets = targets.to(device)
