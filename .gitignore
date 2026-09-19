@@ -9,7 +9,7 @@ __pycache__/
 *.pyd
 
 # Datasets
-# datasets/
+data/cifar-10-c/
 
 # Model weights
 # models/
