@@ -1,0 +1,15 @@
+{
+  "precision_type": "INT8_RPTQ",
+  "model": "tinycnn",
+  "degraded_calibration_percent": 50,
+  "accuracy": 0.8733,
+  "macro_precision": 0.8733342471381478,
+  "macro_recall": 0.8733000000000001,
+  "macro_f1": 0.8730777576426547,
+  "model_size_mb": 0.15252685546875,
+  "latency_mean_ms": 0.8016163333286386,
+  "latency_median_ms": 0.7924999999886495,
+  "latency_p95_ms": 0.8500450001292847,
+  "latency_p99_ms": 0.9788319999051963,
+  "throughput_inf_per_s": 1247.4795714897566
+}

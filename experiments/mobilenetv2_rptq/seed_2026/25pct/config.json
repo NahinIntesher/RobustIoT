@@ -1,0 +1,12 @@
+{
+  "model": "mobilenetv2",
+  "precision": "INT8_RPTQ",
+  "degraded_ratio_percent": 25,
+  "calibration_images": 50000,
+  "degraded_images": 12500,
+  "clean_images": 37500,
+  "calibration_source": "CIFAR10_train",
+  "test_set_used_for_calibration": false,
+  "backend": "x86",
+  "seed": 2026
+}

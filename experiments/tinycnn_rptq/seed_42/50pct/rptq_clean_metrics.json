@@ -7,9 +7,9 @@
   "macro_recall": 0.8733000000000001,
   "macro_f1": 0.873344454013089,
   "model_size_mb": 0.15252685546875,
-  "latency_mean_ms": 0.7436496665225908,
-  "latency_median_ms": 0.7345999983954243,
-  "latency_p95_ms": 0.8095650002360344,
-  "latency_p99_ms": 0.8668579937511822,
-  "throughput_inf_per_s": 1344.719220646113
+  "latency_mean_ms": 0.8668333333366718,
+  "latency_median_ms": 0.8784500000729167,
+  "latency_p95_ms": 0.9307350000312908,
+  "latency_p99_ms": 1.0386599998128072,
+  "throughput_inf_per_s": 1153.6243030142073
 }

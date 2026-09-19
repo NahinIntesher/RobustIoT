@@ -1,0 +1,15 @@
+{
+  "precision_type": "INT8_RPTQ",
+  "model": "mobilenetv2",
+  "degraded_calibration_percent": 75,
+  "accuracy": 0.8099,
+  "macro_precision": 0.8098936189268843,
+  "macro_recall": 0.8099000000000001,
+  "macro_f1": 0.8096627476653696,
+  "model_size_mb": 2.5350894927978516,
+  "latency_mean_ms": 3.5949643333454637,
+  "latency_median_ms": 3.5734499999762193,
+  "latency_p95_ms": 4.002645000014128,
+  "latency_p99_ms": 4.6822380000730845,
+  "throughput_inf_per_s": 278.16687657354385
+}
