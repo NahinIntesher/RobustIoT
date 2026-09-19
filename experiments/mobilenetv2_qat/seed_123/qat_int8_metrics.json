@@ -1,0 +1,14 @@
+{
+  "precision_type": "INT8_QAT",
+  "model": "mobilenetv2",
+  "accuracy": 0.8154,
+  "macro_precision": 0.8154750120809033,
+  "macro_recall": 0.8154,
+  "macro_f1": 0.8152442459233298,
+  "model_size_mb": 2.5287342071533203,
+  "latency_mean_ms": 2.960321333448519,
+  "latency_median_ms": 2.925499999037129,
+  "latency_p95_ms": 3.2149100019523758,
+  "latency_p99_ms": 3.4693340000740136,
+  "throughput_inf_per_s": 337.8011666169653
+}

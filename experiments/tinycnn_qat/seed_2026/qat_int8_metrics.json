@@ -1,0 +1,14 @@
+{
+  "precision_type": "INT8_QAT",
+  "model": "tinycnn",
+  "accuracy": 0.8762,
+  "macro_precision": 0.8765056467363357,
+  "macro_recall": 0.8762000000000001,
+  "macro_f1": 0.8761434186304218,
+  "model_size_mb": 0.15186500549316406,
+  "latency_mean_ms": 0.795871333333101,
+  "latency_median_ms": 0.7935500016174046,
+  "latency_p95_ms": 0.8720149970031343,
+  "latency_p99_ms": 1.000824001857836,
+  "throughput_inf_per_s": 1256.4845071275658
+}
