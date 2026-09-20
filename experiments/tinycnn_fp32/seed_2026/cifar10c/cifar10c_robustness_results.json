@@ -1,0 +1,235 @@
+{
+  "model": "tinycnn",
+  "checkpoint": "experiments/tinycnn_fp32/seed_2026/best_model.pth",
+  "dataset": "CIFAR-10-C",
+  "device": "cuda",
+  "corruptions": {
+    "gaussian_noise": {
+      "1": {
+        "accuracy": 0.6286,
+        "macro_f1": 0.6272403204555547,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.427861699999994
+      },
+      "2": {
+        "accuracy": 0.4339,
+        "macro_f1": 0.4171436147275192,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.677454699999998
+      },
+      "3": {
+        "accuracy": 0.3055,
+        "macro_f1": 0.27148275240695297,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.3699011000001065
+      },
+      "4": {
+        "accuracy": 0.266,
+        "macro_f1": 0.22230965553043208,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.380907799999932
+      },
+      "5": {
+        "accuracy": 0.2397,
+        "macro_f1": 0.1882862194989094,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.335852799999884
+      }
+    },
+    "shot_noise": {
+      "1": {
+        "accuracy": 0.7255,
+        "macro_f1": 0.7240411400934578,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.5407076999999845
+      },
+      "2": {
+        "accuracy": 0.6013,
+        "macro_f1": 0.5971940608291394,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.7520847999999205
+      },
+      "3": {
+        "accuracy": 0.3997,
+        "macro_f1": 0.3810610416484067,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.551611599999887
+      },
+      "4": {
+        "accuracy": 0.3448,
+        "macro_f1": 0.3207654827496069,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.343204999999898
+      },
+      "5": {
+        "accuracy": 0.266,
+        "macro_f1": 0.22683596750708396,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.337403799999947
+      }
+    },
+    "motion_blur": {
+      "1": {
+        "accuracy": 0.7945,
+        "macro_f1": 0.7987207137543626,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.394980000000032
+      },
+      "2": {
+        "accuracy": 0.6992,
+        "macro_f1": 0.705501424330875,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.334022899999809
+      },
+      "3": {
+        "accuracy": 0.6102,
+        "macro_f1": 0.6118095587989781,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.5466646999998375
+      },
+      "4": {
+        "accuracy": 0.6053,
+        "macro_f1": 0.6078505167483449,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.352761599999894
+      },
+      "5": {
+        "accuracy": 0.5335,
+        "macro_f1": 0.5218438289767741,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.340559900000017
+      }
+    },
+    "defocus_blur": {
+      "1": {
+        "accuracy": 0.8748,
+        "macro_f1": 0.8748352294326416,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.420698599999923
+      },
+      "2": {
+        "accuracy": 0.8451,
+        "macro_f1": 0.846987017916898,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.3611535
+      },
+      "3": {
+        "accuracy": 0.7638,
+        "macro_f1": 0.7703389747941007,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.338484200000039
+      },
+      "4": {
+        "accuracy": 0.6469,
+        "macro_f1": 0.6595653878698282,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.2571342999999615
+      },
+      "5": {
+        "accuracy": 0.4364,
+        "macro_f1": 0.43526458709851334,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.224269999999933
+      }
+    },
+    "brightness": {
+      "1": {
+        "accuracy": 0.8759,
+        "macro_f1": 0.8753657903658322,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.594263299999966
+      },
+      "2": {
+        "accuracy": 0.8681,
+        "macro_f1": 0.8676520743510544,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.338125900000023
+      },
+      "3": {
+        "accuracy": 0.8592,
+        "macro_f1": 0.8588935227839365,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.383405100000118
+      },
+      "4": {
+        "accuracy": 0.847,
+        "macro_f1": 0.8470862944534436,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.322761200000059
+      },
+      "5": {
+        "accuracy": 0.8077,
+        "macro_f1": 0.8088070803250093,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.367484399999967
+      }
+    },
+    "contrast": {
+      "1": {
+        "accuracy": 0.8635,
+        "macro_f1": 0.8637789288924956,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.371170699999993
+      },
+      "2": {
+        "accuracy": 0.7798,
+        "macro_f1": 0.7821041992066328,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.344428600000128
+      },
+      "3": {
+        "accuracy": 0.6792,
+        "macro_f1": 0.6831095498195218,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.348577000000205
+      },
+      "4": {
+        "accuracy": 0.5028,
+        "macro_f1": 0.49375981582840867,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.369300300000077
+      },
+      "5": {
+        "accuracy": 0.2315,
+        "macro_f1": 0.15716373135592188,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.46549200000004
+      }
+    },
+    "jpeg_compression": {
+      "1": {
+        "accuracy": 0.797,
+        "macro_f1": 0.7967131850307939,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.414991999999984
+      },
+      "2": {
+        "accuracy": 0.7526,
+        "macro_f1": 0.7524870247758328,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.387481699999853
+      },
+      "3": {
+        "accuracy": 0.7333,
+        "macro_f1": 0.733605675944606,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.304616699999997
+      },
+      "4": {
+        "accuracy": 0.7183,
+        "macro_f1": 0.7189183117438696,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.565089899999975
+      },
+      "5": {
+        "accuracy": 0.6856,
+        "macro_f1": 0.6855675919496739,
+        "num_samples": 10000,
+        "evaluation_time_sec": 4.404354000000012
+      }
+    }
+  },
+  "summary": {
+    "mean_accuracy_all_corruptions_severities": 0.6292057142857144
+  }
+}
